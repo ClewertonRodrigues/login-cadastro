@@ -16,10 +16,11 @@ main {
 
 section {
     width: 50%;
-    height: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .secao-imagem {
@@ -124,6 +125,10 @@ section {
     .formulario {
         width: 100%;
         padding: 10px;
+    }
+
+    .formulario .caixa-textos h1 {
+        font-size: 40px;
     }
 }
 
