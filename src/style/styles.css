@@ -105,11 +105,6 @@ section {
     text-decoration: underline;
 }
 
-.alerta-input {
-    border: 1px solid red;
-}
-
-
 
 @media (width <= 900px){
     .secao-imagem {
