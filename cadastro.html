@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login</title>
+  </head>
+  <body>
+    <main>
+      <section class="secao-imagem">
+        <img
+          class="imagem"
+          src="./src/images/cadastro.svg"
+          alt="ilustração de login"
+        />
+      </section>
+
+      <section class="secao-login">
+        <form id="form-cadastro" class="formulario">
+          <div class="caixa-textos">
+            <h1 class="titulo">Seja bem-vindo</h1>
+            <h4>Crie sua conta</h4>
+          </div>
+
+          
+          <div class="caixa-inputs">
+
+
+            <div class="caixa-input">
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="email" placeholder="Digite seu email">
+            </div>
+
+            <div class="caixa-input">
+                <label for="senha">Senha:</label>
+                <input id="senha" type="password" name="senha" placeholder="Digite sua senha">
+            </div>
+
+            <div class="caixa-input">
+                <label for="verifica-senha">Confirme sua senha:</label>
+                <input id="verifica-senha" type="password" name="verifica-senha" placeholder="Digite sua senha">
+            </div>
+
+          </div>
+
+          <button id="botao-entrar">Criar conta</button>
+
+          <p class="nova-conta">Você já tem conta? <a href="./index.html" class="chamada">Faça login.</a></p>
+
+        </form>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="./src/scripts/cadastro.js"></script>
+  </body>
+</html>
